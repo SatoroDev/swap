@@ -22,7 +22,7 @@ steps:
       git config user.name "SatoroDEV"
       git config user.email "satoroswap@gmail.com"
       git config --global init.defaultBranch master
-      git remote add origin https://satoroswap:${GIT_TOKEN}@github.com/satoroswap/gh-pages.git
+      git remote add origin https://SatoroDev:${GIT_TOKEN}@github.com/SatoroDev/gh-pages.git
     displayName: 'update Repo'
   - script: |
       npm run deploy

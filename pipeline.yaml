@@ -1,7 +1,6 @@
 # run the pipeline on changes in master branch
 trigger:
   - master
-  batch: true
 pool:
   vmImage: 'ubuntu-latest'
   demands: Limit -equals DisAbleParallel

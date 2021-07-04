@@ -1,0 +1,30 @@
+# run the pipeline on changes in master branch
+trigger:
+  - master
+pool:
+  vmImage: 'ubuntu-latest'
+steps:
+  # build environment - Node
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '13.x'
+    displayName: 'install node.js'
+  # Git task
+  # NPM task
+  - script: |
+      yarn
+    displayName: 'yarn dependencies and build'
+  - script: |
+      # remove git history and settings - to avoid inheritance
+      rm -rf .git
+      # re-initialise git
+      git init
+      git config user.name "SatoroDEV"
+      git config user.email "satoroswap@gmail.com"
+      git config --global init.defaultBranch master
+      git remote add origin https://satoroswap:${GIT_TOKEN}@github.com/satoroswap/gh-pages.git
+    displayName: 'update Repo'
+  - script: |
+      npm run deploy
+    displayName: 'deploy the production site'
+      

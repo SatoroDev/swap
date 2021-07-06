@@ -1,22 +1,22 @@
 {
-  "name": "pancakeswap",
-  "timestamp": "2020-08-25T15:41:29.665Z",
+  "name": "satoroswap",
+  "timestamp": "2021-07-04T15:41:29.665Z",
   "version": {
     "major": 1,
     "minor": 3,
     "patch": 1
   },
   "tags": {},
-  "logoURI": "/images/coins/wbnb.png",
+  "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/logo.png",
   "keywords": ["pancake", "default"],
   "tokens": [
   {
       "name": "Satoro Token",
-      "symbol": "SATO",
+      "symbol": "SATORO",
       "address": "0x842294C980a6f29Ca721932c77F97A56f33d24Ba",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/images/coins/sato.png"
+      "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0x842294C980a6f29Ca721932c77F97A56f33d24Ba/logo.png"
   },
   {
       "name": "aDGNZ Token",
@@ -24,7 +24,7 @@
       "address": "0xe8B9b396c59A6BC136cF1f05C4D1A68A0F7C2Dd7",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/images/coins/aDGNZ.png"
+      "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0xe8B9b396c59A6BC136cF1f05C4D1A68A0F7C2Dd7/logo.png"
     },
     {
       "name": "DGNZ Token",
@@ -32,22 +32,15 @@
       "address": "0xb68a67048596502A8B88f1C10ABFF4fA99dfEc71",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/images/coins/DGNZ.png"
-    },
-    {
-      "name": "WBNB Token",
-      "symbol": "WBNB",
-      "address": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
-      "chainId": 97,
-      "decimals": 18,
-      "logoURI": "/images/coins/BUSD.png"
+      "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0xb68a67048596502A8B88f1C10ABFF4fA99dfEc71/logo.png"
     },
     {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "chainId": 56,
-      "decimals": 18
+      "decimals": 18,
+      "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/logo.png"
     },
     {
       "name": "BUSD Token",
@@ -55,7 +48,7 @@
       "address": "0x615446C0Fd5eA8A5FD7fb763f3FC2C58774474F3",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "/images/coins/BTC.png"
+      "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0x615446C0Fd5eA8A5FD7fb763f3FC2C58774474F3/logo.png"
     },
     {
       "name": "BUSD Token",
@@ -63,15 +56,7 @@
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/images/coins/BUSD.png"
-    },
-    {
-      "name": "Ethereum Token",
-      "symbol": "ETH",
-      "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "/images/coins/ETH.png"
+      "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0xe9e7cea3dedca5984780bafc599bd69add087d56/logo.png"
     },
     {
       "name": "BTCB Token",
@@ -79,7 +64,7 @@
       "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/images/coins/BTC-icon.png"
+      "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c/logo.png"
     },
     {
       "name": "Tether USD",
@@ -87,28 +72,7 @@
       "address": "0x55d398326f99059ff775485246999027b3197955",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/images/coins/USDT-icon.png"
-    },
-    {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
-      "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
-      "chainId": 56,
-      "decimals": 18
-    },
-   {
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
-      "chainId": 56,
-      "decimals": 18
-    },
-   {
-      "name": "Binance-Peg USD Coin",
-      "symbol": "USDC",
-      "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-      "chainId": 56,
-      "decimals": 18
+      "logoURI": "https://github.com/SatoroDev/tokenlist/raw/master/asset/0x55d398326f99059ff775485246999027b3197955/logo.png"
     }
   ]
 }
